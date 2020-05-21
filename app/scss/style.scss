@@ -190,18 +190,14 @@
 
 .main-title-container{
     position: relative;
-    min-height: 135px;
 }
 
-.search-box{
-    min-height: 135px;
-}
 .search-box__inner{
     width: calc(100% - 30px);
     background-color: #fff;
     border-radius: 6px;
     position: absolute;
-    bottom: 67.5px;
+    bottom: -67.5px;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
     z-index: 1;
     &:after{
@@ -293,3 +289,43 @@
   
 
 // end main-title & search-box
+
+// start features section
+.features{
+    background-color: #fdfdfd;
+}
+.features__inner{
+    display: flex;
+    justify-content: space-between;
+    color: #010101;
+    padding: 185px 0 120px;
+}
+
+.features__item{
+    max-width: 361px;
+    border-radius: 4px;
+    text-align: center;
+    &-image{
+        padding-top: 45px;
+    }
+    &-title{
+        font-size: 24px;
+        padding: 38px 0 29px;
+    }
+    &-text{
+        font-size: 16px;
+        line-height: 30px;
+        color: #555555;
+        padding: 0 34px 40px;
+
+    }
+    &:hover{
+        box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+        background-color: #fff;
+    }
+}
+
+// 
+
+  
+// end features section
