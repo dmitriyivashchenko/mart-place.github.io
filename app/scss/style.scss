@@ -601,6 +601,10 @@
     text-align: center;
     display: block;
     padding-bottom: 120px;
+    .newest-products__btn{
+        color: #fff;
+        background-color: $blue;
+    }
 }
 .newest-products__btn{
     color: #747b86;
