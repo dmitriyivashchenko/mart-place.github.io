@@ -13,5 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
         prevArrow: $('.slick-prev'),
         nextArrow: $('.slick-next')
     });
- 
+
+    let mixer = mixitup('.newest-products__inner');
 })
